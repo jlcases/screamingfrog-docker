@@ -1,0 +1,6 @@
+tls.crt
+tls.key
+deployment.yaml
+service.yaml
+ingress.yaml
+```

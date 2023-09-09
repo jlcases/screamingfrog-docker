@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: screamingfrog-deployment
+  labels:
+    app: screamingfrog
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: screamingfrog
+  template:
+    metadata:
+      labels:
+        app: screamingfrog
+    spec:
+      containers:
+      - name: screamingfrog-container
+        image: gcr.io/serchaiweb/screamingfrog:latest
+        ports:
+        - containerPort: 80
+        - containerPort: 443

@@ -2,7 +2,8 @@
 
 This repository contains the necessary files to build a Docker image for the [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/), a powerful and fast SEO site audit tool. The Docker image allows you to run Screaming Frog SEO Spider in a containerized environment, with the ability to access the GUI remotely.
 
-As the Chief Product & Technology Officer at Rankia, in charge of Technical SEO, I faced very high costs using Oncrawl. To address this, I decided to create this cost-effective solution for my team.
+As the Chief Product & Technology Officer at Rankia, responsible for Technical SEO, I encountered exceedingly high costs while using Oncrawl. To mitigate this, I decided to create this cost-effective solution for my team. When used in conjunction with BigQuery and Metabase, this setup can save you thousands of dollars per year.
+
 
 
 ## Prerequisites

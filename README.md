@@ -2,6 +2,9 @@
 
 This repository contains the necessary files to build a Docker image for the [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/), a powerful and fast SEO site audit tool. The Docker image allows you to run Screaming Frog SEO Spider in a containerized environment, with the ability to access the GUI remotely.
 
+As the Chief Product & Technology Officer at Rankia, in charge of Technical SEO, I faced very high costs using Oncrawl. To address this, I decided to create this cost-effective solution for my team.
+
+
 ## Prerequisites
 
 - [Docker](https://www.docker.com/get-started) installed on your system.

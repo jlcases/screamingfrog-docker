@@ -14,5 +14,13 @@ spec:
       protocol: TCP
       port: 443
       targetPort: 443
+    - name: novnc-port
+      protocol: TCP
+      port: 6080
+      targetPort: 6080
+    - name: vnc-port
+      protocol: TCP
+      port: 5900
+      targetPort: 5900
   type: LoadBalancer
 
